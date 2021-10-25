@@ -1,0 +1,46 @@
+body {
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border-radius: 12px;
+}
+
+.icon-input-btn {
+    display: inline-block;
+    position: relative;
+}
+
+.icon-input-btn input[type="submit"] {
+    padding-right: 2em;
+}
+
+.icon-input-btn .bi {
+    display: inline-block;
+    position: absolute;
+    left: 5em;
+    top: 30%;
+}
+
+.icon-input-span .bi {
+    color: #212529;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: -50;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+}

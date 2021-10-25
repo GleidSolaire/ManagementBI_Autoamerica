@@ -1,0 +1,29 @@
+body {
+    background: #252525;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 90vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline 1px;
+    text-decoration-color: #ffc107;
+}
